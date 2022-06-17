@@ -1,0 +1,7 @@
+# compositor
+picom -b
+
+# organize displays
+xrandr --output HDMI-0 --primary --output DP-2 --auto --above HDMI-0
+
+feh --bg-scale --randomize ~/wallpapers
